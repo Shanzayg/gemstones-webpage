@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+}
+
+.filter, .clear {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.sort select {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.stone-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.stone {
+    flex: 1 1 200px;
+    max-width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.stone img {
+    width: 100%;
+    height: auto;
+}
+
+.stone h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.stone p {
+    margin: 5px 0;
+    color: #555;
+}
+.stone-01 {
+    flex: 1 1 200px;
+    max-width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.stone-01 img {
+    width: 100%;
+    height: auto;
+}
+
+.stone-01 h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.stone-01 p {
+    margin: 5px 0;
+    color: #555;
+}
